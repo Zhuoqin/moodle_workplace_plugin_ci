@@ -3,5 +3,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 >
     <TABLES>
+        <TABLE NAME="local_phish" COMMENT="local phish defautl table">
+            <FIELDS>
+                <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+            </FIELDS>
+            <KEYS>
+                <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+            </KEYS>
+        </TABLE>
     </TABLES>
 </XMLDB>

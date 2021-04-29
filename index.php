@@ -24,6 +24,8 @@
 
 require_once(__DIR__ . '/../../config.php');
 
+require_login();
+
 $context = context_system::instance();
 
 $title = get_string('index', 'local_phish');
