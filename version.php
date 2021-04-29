@@ -17,7 +17,7 @@
 /**
  * Version details.
  *
- * @package    local_[plugin]
+ * @package    local_phish
  * @copyright  2020 Fortinet, Inc. https://fortinet.com
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
