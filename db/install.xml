@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 >
     <TABLES>
-        <TABLE NAME="phish" COMMENT="local phish defautl table">
+        <TABLE NAME="local_phish_default" COMMENT="local phish defautl table">
             <FIELDS>
                 <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
             </FIELDS>
