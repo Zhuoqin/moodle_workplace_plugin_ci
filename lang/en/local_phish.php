@@ -15,4 +15,5 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 $string['index'] = 'Fortiphish';
+$string['pluginname'] = 'Fortiphish Plugin';
 $string['local_phish'] = 'Fortiphish Plugin';
