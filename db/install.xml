@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="local/phish/db" VERSION="20210424" COMMENT="XMLDB file for Moodle local/phish"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+    <TABLES>
+    </TABLES>
+</XMLDB>
