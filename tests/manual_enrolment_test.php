@@ -31,7 +31,8 @@ defined('MOODLE_INTERNAL') || die();
  * @copyright  2020 Moodle Pty Ltd <support@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class local_tenantexample_testcase extends advanced_testcase {
+class local_tenantexample_testcase extends advanced_testcase
+{
     /** @var stdClass */
     private $course = null;
     /** @var array */
@@ -40,7 +41,8 @@ class local_tenantexample_testcase extends advanced_testcase {
     /**
      * Tests set up
      */
-    protected function setUp() {
+    protected function setUp(): void
+    {
         global $CFG;
         require_once($CFG->dirroot . '/enrol/locallib.php');
 
@@ -58,7 +60,8 @@ class local_tenantexample_testcase extends advanced_testcase {
     /**
      * Test get_potential_users without multitenancy plugin
      */
-    public function test_get_potential_users() {
+    public function test_get_potential_users()
+    {
         global $DB, $PAGE;
         $this->resetAfterTest();
 
@@ -87,7 +90,8 @@ class local_tenantexample_testcase extends advanced_testcase {
     /**
      * Test get_potential_users with multitenancy plugin
      */
-    public function test_get_potential_users_multitenancy() {
+    public function test_get_potential_users_multitenancy()
+    {
         global $DB, $PAGE;
         if (!core_component::get_component_directory('tool_tenant')) {
             $this->markTestSkipped('Multi-tenancy plugin not available');

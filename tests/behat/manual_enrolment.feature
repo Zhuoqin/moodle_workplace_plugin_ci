@@ -1,4 +1,4 @@
-@local @local_tenantexample @javascript
+@local @local_phish @javascript
 Feature: Manual enrolment method in Moodle LMS vs Moodle Workplace
   As a teacher
   I want to be able to enrol users in my course
