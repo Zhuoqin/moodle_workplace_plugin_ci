@@ -33,7 +33,7 @@ Feature: Manual enrolment method in Moodle LMS vs Moodle Workplace
     And I should see "User 5"
     And I should see "Admin User"
     And I click on "User 1" "text" in the ".modal-dialog .form-autocomplete-suggestions" "css_element"
-#    And I press key "27" in the field "Select users"
+    And I press key "27" in the field "Select users"
     And I click on "Enrol users" "button" in the "Enrol users" "dialogue"
     Then I should see "Student" in the "User 1" "table_row"
     And I navigate to "Users > Enrolment methods" in current page administration
